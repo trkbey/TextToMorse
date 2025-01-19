@@ -35,6 +35,7 @@ def text_to_morse(input_text, csv_file='letters.csv'):
     except Exception as e:
         return f"Error: {str(e)}"
 
+
 if __name__ == "__main__":
     user_input = input("Enter any text: ")
     morse_output = text_to_morse(user_input)
